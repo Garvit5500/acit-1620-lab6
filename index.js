@@ -58,7 +58,7 @@ images.forEach((image, index) => {
 );
 
 const heading = document.querySelector('h1');
-h1.textContent += '!';
+heading.textContent += '!';
 /*  Step 3:
   - Loop through the array of image elements and assign a string (in order) from your 'randomSources' array to the src attribute of the current image. For example, if your randomized array looks like the following:
 
